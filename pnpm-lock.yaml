@@ -1,0 +1,23 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  '@trpc/client':
+    specifier: ^10.25.0
+    version: 10.25.0(@trpc/server@10.25.0)
+  '@trpc/server':
+    specifier: ^10.25.0
+    version: 10.25.0
+
+packages:
+
+  /@trpc/client@10.25.0(@trpc/server@10.25.0):
+    resolution: {integrity: sha512-XWuzbbACX2fzB9UHVkPJtaaAeFiyPjQSC3YgnRtDwjQx03/nt7OsxTBxvG0kblCN0Z2zZrnLF65aDrMJEP43LQ==}
+    peerDependencies:
+      '@trpc/server': 10.25.0
+    dependencies:
+      '@trpc/server': 10.25.0
+    dev: false
+
+  /@trpc/server@10.25.0:
+    resolution: {integrity: sha512-OKcGw2iZMUV8zCHoS+uLYGVq2tbZhhK0TPbb0pGhT+KTN8oWYPG+oYpTe9He9J1A2y8qcRAoy5u1zdiUUOiFEg==}
+    dev: false
